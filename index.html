@@ -4,8 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>AI Study Companion Blog</title>
+	<title>ASC Progress Reports</title>
 	<link href="./output.css" rel="stylesheet">
+	<script src="./articles.js" defer></script>
 </head>
 
 <body class="bg-[#F9FAFB] text-[#0F172A]">
@@ -22,7 +23,15 @@
 
 			<!--Side Bar-->
 			<div class="w-1/5 h-full bg-[#2D3748] flex flex-col items-center px-2">
-				<div class="w-full mt-2 bg-[#3B82F6] rounded-full shadow-2xl flex items-center justify-center py-3">
+				<div class="w-full mt-2 bg-[#3B82F6] rounded-full shadow-2xl flex items-center justify-center py-3
+							hover:bg-[#60A5FA] hover:shadow-3xl hover:scale-105
+							active:bg-[#3B82F6] active:scale-95 active:shadow-md transition-all duration-300" data-section="about">
+					<h1 class="text-2xl font-bold text-[#F3F4F6]">About</h1>
+				</div>
+
+				<div class="w-full mt-2 bg-[#3B82F6] rounded-full shadow-2xl flex items-center justify-center py-3
+							hover:bg-[#60A5FA] hover:shadow-3xl hover:scale-105
+							active:bg-[#3B82F6] active:scale-95 active:shadow-md transition-all duration-300" data-section="week1">
 					<h1 class="text-2xl font-bold text-[#F3F4F6]">Week 1</h1>
 				</div>
 				<!-- Additional Sidebar Items -->
@@ -30,7 +39,7 @@
 
 			<!--Article Section-->
 			<div class="w-4/5 h-full overflow-y-auto bg-[#F9FAFB] p-5">
-				<article class="prose lg:prose-xl text-[#0F172A]">
+				<article class="prose lg:prose-xl text-[#0F172A]" id="main-article">
 					<h2 class="font-bold text-[#0F172A]">Introduction</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque orci ut orci
@@ -48,6 +57,7 @@
 					</p>
 				</article>
 			</div>
+
 		</div>
 	</div>
 </body>

@@ -23,9 +23,7 @@ const articles = {
     `,
   week1: `
   <h2 class="font-bold text-[#0F172A]">Week 1</h2>
-    <p>
-      Welcome to Week 1! Here you'll find progress reports and updates from the first week.
-    </p>`,
+    <p>Week 1's content will be updated at a future date with this weeks progress report and presentation.</p>`,
 }
 
 document.addEventListener("DOMContentLoaded", () => {

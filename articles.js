@@ -1,5 +1,5 @@
 const articles = {
-    about: `
+  about: `
   <h1>About ASC</h1>
   <h2>What is ASC?</h2>
     <p>AI Study Companion (ASC) is an in progress, AI powered study companion hosted on the web. ASC can track the users progress in selected subjects, and pushes them in the correct direction to facilitate learning.</p>
@@ -16,8 +16,12 @@ const articles = {
       <li>Seth Morgan</li>
     </ul>
     <p>All members are students of Pennsylvania Western University studying Computer Science.</p>
+  <h2>Gantt Chart</h2>
+    <h3>Updated 1/24/24</h3>
+	<iframe class="w-full h-[70vh] max-w-screen-lg mx-auto rounded-lg shadow-lg"
+					src="Gantt Chart - Senior Project.pdf"></iframe>
     `,
-    week1: `
+  week1: `
   <h1>Week 1</h1>
   <h2>Summary:</h2>
     <p>This first week was spent setting up our development environment, developing the project website, and making the Gantt chart. Overall, everything went according to plan. The only change made is that we will no longer be using Docker. Due to compatibility challenges we reevaluated our need for Docker and realized that we would be able to work fine without it.</p>
@@ -52,18 +56,18 @@ const articles = {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const sidebarItems = document.querySelectorAll('[data-section]')
-    const mainArticle = document.getElementById('main-article')
+  const sidebarItems = document.querySelectorAll('[data-section]')
+  const mainArticle = document.getElementById('main-article')
 
-    mainArticle.innerHTML = articles['about']
+  mainArticle.innerHTML = articles['about']
 
-    sidebarItems.forEach(item => {
-        item.addEventListener('click', () => {
-            const section = item.getAttribute('data-section')
-            if (articles[section]) {
-                mainArticle.innerHTML = articles[section]
-            }
-        })
+  sidebarItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const section = item.getAttribute('data-section')
+      if (articles[section]) {
+        mainArticle.innerHTML = articles[section]
+      }
     })
+  })
 
 })

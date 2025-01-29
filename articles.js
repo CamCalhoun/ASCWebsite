@@ -80,8 +80,8 @@ const articles = {
     </ul>
   <h2>Member Contributions:</h2>
     <ul>
-      <li>Cameron Calhoun - Weekly Report, python-dotenv implementation</li>
-      <li>Jonathan Buckel - AI communication</li>
+      <li>Cameron Calhoun - Weekly Report</li>
+      <li>Jonathan Buckel - AI communication, python-dotenv implementation</li>
       <li>Gage Keslar - AI communication, presentation, chat bot</li>
       <li>Seth Morgan - AI communication</li>
     </ul>

@@ -1088,8 +1088,8 @@ video {
   height: 100vh;
 }
 
-.h-\[70vh\] {
-  height: 70vh;
+.min-h-\[80vh\] {
+  min-height: 80vh;
 }
 
 .w-1\/6 {
@@ -1106,10 +1106,6 @@ video {
 
 .max-w-screen-xl {
   max-width: 1280px;
-}
-
-.max-w-screen-lg {
-  max-width: 1024px;
 }
 
 .flex-1 {

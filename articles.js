@@ -52,6 +52,40 @@ const articles = {
       <li>Gage Keslar - Gantt Chart</li>
       <li>Seth Morgan - Presentation</li>
     </ul>
+  `,
+  week2: `
+   <h1>Week 2</h1>
+  <h2>Summary:</h2>
+    <p>This first week was spent setting up our development environment, developing the project website, and making the Gantt chart. Overall, everything went according to plan. The only change made is that we will no longer be using Docker. Due to compatibility challenges we reevaluated our need for Docker and realized that we would be able to work fine without it.</p>
+  <h2>What was Accomplished:</h2>
+    <ul>
+      <li>AI tokens acquired</li>
+      <li>OpenAI API communication established</li>
+      <li>Proper storage and hiding of API keys</li>
+      <li>Simple chat bot created</li>
+    </ul>
+  <h2>Problems Encountered:</h2>
+    <ul>
+      <li>Potential abuse of tokens</li>
+      <li>Setting up API keys across all developers environments</li>
+    </ul>
+  <h2>Plans to Overcome Problems:</h2>
+    <ul>
+      <li>No longer using Docker. We determined that we wouldn't be losing annything by not using it.</li>
+    </ul>
+  <h2>Plans for next week:</h2>
+    <ul>
+      <li>Establish User class</li>
+      <li>Establish Subject Classes</li>
+    </ul>
+  <h2>Member Contributions:</h2>
+    <ul>
+      <li>Cameron Calhoun - Weekly Report, python-dotenv implementation</li>
+      <li>Jonathan Buckel - AI communication</li>
+      <li>Gage Keslar - AI communication, presentation, chat bot</li>
+      <li>Seth Morgan - AI communication</li>
+    </ul>
+
   `
 }
 

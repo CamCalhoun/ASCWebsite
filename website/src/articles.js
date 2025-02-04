@@ -18,8 +18,9 @@ const articles = {
     <p>All members are students of Pennsylvania Western University studying Computer Science.</p>
   <h2>Gantt Chart</h2>
     <h3>Updated 1/24/24</h3>
-	<iframe class="w-full h-[70vh] max-w-screen-lg mx-auto rounded-lg shadow-lg"
-					src="Gantt Chart - Senior Project.pdf"></iframe>
+    
+<iframe class="w-full h-[800px] max-w-screen-lg mx-auto rounded-lg shadow-lg"
+        src="Gantt Chart - Senior Project.pdf#toolbar=1"></iframe>
     `,
   week1: `
   <h1>Week 1</h1>

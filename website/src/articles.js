@@ -25,6 +25,12 @@ const articles = {
   week1: `
   <h1>Week 1</h1>
   <h2>Summary:</h2>
+    <p>Week 1 was entirely lectures, and thus no report was completed. Reports begin in week 2.</p>
+  `,
+  week2: `
+
+  <h1>Week 2</h1>
+  <h2>Summary:</h2>
     <p>This first week was spent setting up our development environment, developing the project website, and making the Gantt chart. Overall, everything went according to plan. The only change made is that we will no longer be using Docker. Due to compatibility challenges we reevaluated our need for Docker and realized that we would be able to work fine without it.</p>
   <h2>What was Accomplished:</h2>
     <ul>
@@ -54,8 +60,8 @@ const articles = {
       <li>Seth Morgan - Presentation</li>
     </ul>
   `,
-  week2: `
-   <h1>Week 2</h1>
+  week3: `
+  <h1>Week 3</h1>
   <h2>Summary:</h2>
     <p>This second week of the project was focused primarily on OpenAI API Integration, and developing a working demo for this integration. We first obtained tokens for communicating with the AI model. These are spent with each message sent and received. Limits were set on the amount of there tokens used, as well as monetary monthly limits on OpenAI. To communicate with the AI model, we must make requests through an API. This meant we had to develop a way to store our API keys. This was done through the python-dotenv library, and making use of .env files. This hides the API key from the project itself, and makes the key secure. If we were to expose our API key to the web, our tokens could be used by malicious, outside users, and our wallets drained. The rest of the time this week was spent developing our communication with the AI model, and developing a simple chat bot we can communicate with. This will allow easy integration of features in the program that require communicating with the AI model.</p>
   <h2>What was Accomplished:</h2>
@@ -87,6 +93,11 @@ const articles = {
       <li>Seth Morgan - AI communication</li>
     </ul>
 
+  `,
+  week4: `
+  <h1>Week 4</h1>
+  <h2>Summary:</h2>
+    <p>Week 4 is currently in progress. Check back later to see what we've been working on.</p>
   `
 }
 

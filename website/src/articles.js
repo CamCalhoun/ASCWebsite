@@ -4,7 +4,7 @@ const articles = {
   <h2>What is ASC?</h2>
     <p>AI Study Companion (ASC) is an in progress, AI powered study companion hosted on the web. ASC can track the users progress in selected subjects, and pushes them in the correct direction to facilitate learning.</p>
   <h2>Why choose ASC?</h2>
-    <p>ASC differs from other study companions with its built in AI capabilities. ASC will not use AI to verify a students work, but to procedurally generate questions and study materials tailored to each individaul user. The more you interact with ASC, the better ASC will grow to understand your strengths and weaknesses regarding various subjects.</p>
+    <p>ASC differs from other study companions with its built in AI capabilities. ASC will not use AI to verify a students work, but to procedurally generate questions and study materials tailored to each individual user. The more you interact with ASC, the better ASC will grow to understand your strengths and weaknesses regarding various subjects.</p>
   <h2>What technologies does ASC utilize?</h2>
     <p>ASC will be a full-stack web application with a React front-end and a Python back-end utilizing the FastAPI library.</p>
   <h2>Who created ASC?</h2>
@@ -17,7 +17,7 @@ const articles = {
     </ul>
     <p>All members are students of Pennsylvania Western University studying Computer Science.</p>
   <h2>Gantt Chart</h2>
-    <h3>Updated 1/24/24</h3>
+    <h3>Updated 2/07/25</h3>
     
 <iframe class="w-full h-[800px] max-w-screen-lg mx-auto rounded-lg shadow-lg"
         src="Gantt Chart - Senior Project.pdf#toolbar=1"></iframe>
@@ -97,7 +97,33 @@ const articles = {
   week4: `
   <h1>Week 4</h1>
   <h2>Summary:</h2>
-    <p>Week 4 is currently in progress. Check back later to see what we've been working on.</p>
+    <p>This week our focus was directed towards developing the User and Subject classes, and using them to interact with out chat bot. If you recall from our report last week, we were able to successfully establish communication with OpenAI’s GPT-4o model, and we could send and receive messages through our terminal. This week we wanted to focus these messages on the actual application of our program, and create some of the classes elaborated on in our specification document to facilitate this process. A Subject class was created which will be the parent class of all specific subjects, and contain all methods of said derived classes. This will allow for a very modular program, in which additional subjects can be easily added by deriving a new class. We created an English class to showcase the bots new functionality. In addition, we created a User class which stores a users data on which subjects they are tracking. In addition, this class contains methods to add and remove classes, as well as import and export user data using JSON.</p>
+  <h2>What was Accomplished:</h2>
+    <ul>
+      <li>Subject class created</li>
+      <li>English class created</li>
+      <li>User class created</li>
+      <li>Chat bot subject interaction completed</li>
+    </ul>
+  <h2>Problems Encountered:</h2>
+    <ul>
+      <li>Structure of subject class</li>
+      <li>Other coursework</li>
+    </ul>
+  <h2>Plans to Overcome Problems:</h2>
+    <p>The only real issue found in this weeks work was discussing the data types for the subject class. At one point, we had debated using a list for the subjects prompts, but elected for a dictionary in order to increase readability within the program. Other coursework kept us occupied as well, and was something to juggle on top of this weeks work.</p>
+  <h2>Plans for this Week:</h2>
+    <ul>
+      <li>Create remaining subject classes</li>
+      <li>Further work on back end</li>
+    </ul>
+  <h2>Member Contributions:</h2>
+    <ul>
+      <li>Cameron Calhoun - Weekly Report, Subject class, User class</li>
+      <li>Gage Keslar - Powerpoint, Chat bot updates, English class</li>
+      <li>Seth Morgan - Communicated some ideas, began prototype Math class</li>
+      <li>Jonathan Buckel - Communicated some ideas</li>
+    </ul>
   `
 }
 

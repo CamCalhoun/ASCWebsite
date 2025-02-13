@@ -124,6 +124,39 @@ const articles = {
       <li>Seth Morgan - Communicated some ideas, began prototype Math class</li>
       <li>Jonathan Buckel - Communicated some ideas</li>
     </ul>
+  `,
+  week5: `
+  <h1>Week 5</h1>
+  <h2>Summary:</h2>
+    <p>This week our focus was directed towards developing the remaining subject classes and further developing the back end. Geography, History, and ComputerScience classes were created and fleshed out to the same degree as English. Additionally, Math was completed. They currently all only have 3 prompts and breakpoints, and are worded similarly to English. Over the next week or two, we will be honing in on these prompts and breakpoints to ensure that a smooth generation is created. We additionally spent time locking down the chatbot, such that users cannot send nonsense to it. It now only accepts selections for questions. In incorporating multiple subjects into the chatbot, some changes needed to be made to User and Subject. Namely, changing the storage of classes in User from a list to a dictionary. This allows us to reference a class from user using a key value pair, where the key is the name of the subject, and the value is the class itself.</p>
+  <h2>What was Accomplished:</h2>
+    <ul>
+      <li>Geography class created</li>
+      <li>History class created</li>
+      <li>Computer Science class created</li>
+      <li>Math class completed</li>
+      <li>User class edited</li>
+      <li>Chatbot locked down </li>
+    </ul>
+  <h2>Problems Encountered:</h2>
+    <ul>
+      <li>Poor indexing for User.subjects</li>
+      <li>Prompt specific issues</li>
+    </ul>
+  <h2>Plans to Overcome Problems:</h2>
+    <p>We redefined User.subjects into a dictionary, such that we could use the names of the subjects as keys in key value pairs. This way, we can directly address a subject instead of looping through User.subjects entirely to find a reference each time. Additionally, the prompts can sometimes generate vague answers, and create confusion. We will solve this in the coming weeks by engineering the prompts carefully.</p>
+  <h2>Plans for this Week:</h2>
+    <ul>
+      <li>Complete APITools logic</li>
+      <li>Engineer prompts that do not confuse the bot for each class</li>
+    </ul>
+  <h2>Member Contributions:</h2>
+    <ul>
+      <li>Cameron Calhoun - Weekly Report, Geography class, History class, ComputerScience Class, completed Math class, restructured User class, Powerpoint</li>
+      <li>Gage Keslar - Communicated some ideas, helped reformat classes</li>
+      <li>Seth Morgan - Reformatted to fit design specifications, restricted chatbot</li>
+      <li>Jonathan Buckel - Communicated some ideas, helped reformat classes</li>
+    </ul>
   `
 }
 
